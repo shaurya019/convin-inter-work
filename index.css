@@ -612,13 +612,19 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.p3-main{
+    position: relative;
+    margin: 6px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+}
 .sub3{
-    background-color: #212121;
+    background-color:#1569ec;
     margin: 30px;
     border: 2px solid #FFFF;
     height: 350px;
-    width: 400px;
-
+    width: 430px;
     box-shadow: 2px 2px 5px 2px rgb(1 1 1 / 30%);
 }
 .sub3 p{
@@ -628,7 +634,7 @@ color: white;
 }
 .sub3 a h3{
     margin: 16px;
-    color:#1569ec;
+    color:#7ef6fa;
 }
 .sub3 a h3:hover{
     font-size: 20px;
