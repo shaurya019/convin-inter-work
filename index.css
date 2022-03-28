@@ -119,6 +119,18 @@ box-shadow: 2px 2px 5px 2px rgb(1 1 1 / 30%);
        
     
 }
+.targets{
+    color: #49a09d;
+}
+.method{
+    color: #F93F78;
+}
+.challenge{
+    color:#EC6F66;
+}
+.investment{
+    color: #7ef6fa;
+}
 #Challenge{
         padding: 20px;
         margin: 10px 20px;
@@ -131,11 +143,11 @@ box-shadow: 2px 2px 5px 2px rgb(1 1 1 / 30%);
    
 }
 .part-head h2{
-font-size: 50px;
-font-weight: 800;
+font-size: 40px;
+font-weight: 700;
 }
 .part-head p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.7;
 }
@@ -593,15 +605,35 @@ flex-direction: column;
 .footer-p{
     margin-left: 20px;
 }
-/* responsive
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
+.part3-main{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.sub3{
+    background-color: #212121;
+    margin: 30px;
+    border: 2px solid #FFFF;
+    height: 350px;
+    width: 400px;
+
+    box-shadow: 2px 2px 5px 2px rgb(1 1 1 / 30%);
 }
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
+.sub3 p{
+    font-size: 20px;
+    padding: 15px;
+color: white;
 }
-} */
+.sub3 a h3{
+    margin: 16px;
+    color:#1569ec;
+}
+.sub3 a h3:hover{
+    font-size: 20px;
+    border: 2px solid white;
+    color: #FFFF;
+    text-align: center;width:50%;
+   background-color: #1569ec;
+}
